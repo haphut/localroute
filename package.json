@@ -1,0 +1,37 @@
+{
+	"name": "localroute",
+	"description": "Public transport routing library for mobile clients.",
+	"homepage": "https://github.com/HSLdevcom/localroute",
+	"keywords": [
+		"routing",
+		"public",
+		"transport",
+		"transit",
+		"offline",
+		"client",
+		"browser"
+	],
+	"author": "Juha Järvi <juha@busfaster.com>",
+	"repository" : {
+		"type": "git",
+		"url": "git://github.com/HSLdevcom/localroute.git"
+	},
+	"bugs": {
+		"url": "https://github.com/HSLdevcom/localroute/issues"
+	},
+	"main": "localroute.js",
+	"version": "0.0.1",
+	"devDependencies": {
+		"protobuf": "~0.8.7"
+	},
+	"licenses": [
+		{
+			"type": "LGPL v3 or later",
+			"urls": [
+				"https://raw.github.com/HSLdevcom/localroute/master/COPYING.txt",
+				"https://raw.github.com/HSLdevcom/localroute/master/COPYING.LESSER.txt"
+			]
+		}
+	],
+	"files": ["localroute.js", "localroute-min.js", "COPYING.txt", "COPYING.LESSER.txt"]
+}
